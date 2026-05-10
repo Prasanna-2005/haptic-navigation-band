@@ -3,8 +3,6 @@
 ## Overview
 **Smart Nav** is a **proof-of-concept navigation experimentation app** that simulates navigation instructions via Android Notification Listener Service and communicates with ESP32 microcontrollers via Bluetooth. The app captures turn-by-turn instructions from Google Maps notifications and provides **real-time vibration feedback** patterns to guide directional navigation for accessibility.
 
-> ⚠️ **Status:** SCRAPPING/TESTING PROJECT — No direct Google Maps API integration. Uses platform-specific notification parsing for development and prototyping.
-
 **Version:** 1.0.0  
 **Platform:** Flutter (Cross-platform iOS & Android - Android primary)  
 **SDK:** Dart 3.11.1+
