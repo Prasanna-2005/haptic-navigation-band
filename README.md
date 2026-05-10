@@ -871,25 +871,6 @@ StreamSubscription subscription = bleService.connectionStream.listen(
 
 ---
 
-## Testing
-
-The project includes unit tests and widget tests:
-
-```bash
-# Run all tests
-flutter test
-
-# Run specific test file
-flutter test test/navigation_bluetooth_service_test.dart
-```
-
-### Test Files
-- `widget_test.dart` - UI widget tests
-- `navigation_bluetooth_service_test.dart` - Service logic tests
-- `turn_parser_test.dart` - Navigation parsing tests
-
----
-
 ## Configuration
 
 ### theme.dart
